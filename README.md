@@ -48,5 +48,11 @@ universe_domain="googleapis.com"
 ## Run
 Locally: streamlit run main.py
 
+### Windows
+python3.9 -m venv .venv  
+source .venv/Scripts/activate  
+pip install -r requirements.txt  
+streamlit run main.py 
+
 On streamlit.io: 
 Fork the repository so you have your own. Then sign in to Streamlit Community Cloud. Create an app based on your github repository. Then add the secrets to the app settings and reboot the app!
